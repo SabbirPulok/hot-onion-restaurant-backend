@@ -128,7 +128,7 @@ app.post('/placeOrder',(req,res)=>{
                 res.send(result.ops[0])
              }
          });
-         //console.log("database connected....");
+         
          //client.close();
      });
 });
